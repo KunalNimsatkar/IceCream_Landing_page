@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice-Cream Store</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--===============CSS File===============-->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="bg-bg-background font-inter scroll-smooth">
+    <!--===============Header===============-->
+    <header
+      class="container mx-auto px-4 mt-2 md:px-12 lg:px-24 flex justify-between items-center"
+    >
+      <div class="flex text-2xl md:text-3xl font-semibold">
+        Bis<span class="text-rose-400">tro</span>
+      </div>
+      <div class="z-20 menuBar">
+        <i class="fa-solid fa-bars text-2xl md:hidden menu"></i>
+      </div>
+      <div
+        class="z-10 navlinks hidden md:flex absolute md:static top-0 right-0 bg-btn-bg md:bg-inherit py-28 md:py-2 px-16 md:px-0 h-full"
+      >
+        <div
+          class="flex flex-col md:block space-y-6 md:space-x-6 text-center text-white md:text-rose-500 sm:md:text-base"
+        >
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#Product">Products</a>
+          <a href="#contact">Contact</a>
+          <a href="#home" class="bg-rose-500 px-4 py-2 text-white">Buy Now</a>
+        </div>
+      </div>
+    </header>
+    <main class="mt-10 md:mt-14">
+      <!--===============Hero Section===============-->
+      <section id="home"
+        class="container mx-auto px-4 md:px-10 lg:px-24 flex flex-col gap-10 md:grid md:grid-cols-2 md:gap-x-4 justify-center items-center"
+      >
+        <div class="mr-3 text-center md:text-left">
+          <h4 class="md:text-md md:font-semibold">Sweet Fun, Full of Milk</h4>
+          <h1
+            class="font-semibold md:font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-6sxl font-poppins"
+          >
+            Feel Inside Cold With Our Delicious
+            <span class="text-rose-500">Ice Cream</span>
+          </h1>
+          <p class="hidden md:block text-xss md:text-base text-rose-400">
+            Some food has looked so awful that it’s looked like something that
+            the dog’s brought home,yet after one mouthful I’ve been lift eating
+            my thoughts,my words
+          </p>
+        </div>
+        <div class="relative flex justify-center items-center">
+          <img
+            src="./images/background circle.png"
+            alt="circle"
+            class="sm:w-72 md:w-full"
+          />
+          <img
+            src="./images/hero-img.png"
+            alt="hero"
+            class="absolute top-4 left-2/4 transform -translate-x-1/2 w-8/12"
+          />
+        </div>
+      </section>
+      <!--===============Card Section================-->
+      <section id="services" class="mt-14 p-20 bg-white" id="services">
+        <div
+          class="flex flex-col shrink sm:flex-row justify-center items-center text-center gap-8 xl:gap-16"
+        >
+          <div
+            class="w-60 h-48 md:w-full xl:w-48 md:h-42 lg:h-44 sm:h-40 flex flex-col justify-center items-center gap-1 shadow-md rounded-lg p-2 hover:scale-105 transition ease-in-out delay-150 cursor-pointer"
+          >
+            <img src="./images/shipping.svg" alt="shipping" class="w-2/5" />
+            <h3 class="font-bold">Free Shipping</h3>
+            <p class="text-xs text-btn-bg text-center">
+              Grap the Deal today,with lastest offer
+            </p>
+          </div>
+          <div
+            class="w-60 h-48 md:w-full xl:w-48 md:h-42 lg:h-44 sm:h-40 flex flex-col justify-center items-center gap-1 shadow-md rounded-lg p-2 hover:scale-105 transition ease-in-out delay-150 cursor-pointer"
+          >
+            <img src="./images/courier.svg" alt="courier" class="w-2/5" />
+            <h3 class="font-bold">Quick Packing</h3>
+            <p class="text-xs text-btn-bg text-center">
+              Grap the Deal today,with lastest offer
+            </p>
+          </div>
+          <div
+            class="w-60 h-48 md:w-full xl:w-48 md:h-42 lg:h-44 sm:h-40 flex flex-col justify-center items-center gap-1 shadow-md rounded-lg p-2 hover:scale-105 transition ease-in-out delay-150 cursor-pointer"
+          >
+            <img
+              src="./images/money return.svg"
+              alt="money_return"
+              class="w-2/5"
+            />
+            <h3 class="font-bold">Money Refund</h3>
+            <p class="text-xs text-btn-bg text-center">
+              Grap the Deal today,with lastest offer
+            </p>
+          </div>
+          <div
+            class="w-60 h-48 md:w-full xl:w-48 md:h-42 lg:h-44 sm:h-40 flex flex-col justify-center items-center gap-1 shadow-md rounded-lg p-2 hover:scale-105 transition ease-in-out delay-150 cursor-pointer"
+          >
+            <img src="./images/on_the_way.svg" alt="Ontheway" class="w-2/3" />
+            <h3 class="font-bold">Fast Delivery</h3>
+            <p class="text-xs text-btn-bg text-center">
+              Grap the Deal today,with lastest offer
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--===============Ads Section================-->
+      <section
+        class="container mx-auto px-4 pb-5 md:pb-0 md:px-10 lg:px-24 h-1/4 mt-8 grid grid-rows-2 sm:grid-rows-none sm:grid-cols-2 justify-center md:justify-between items-center"
+      >
+        <div class="flex flex-col justify-center items-center md:pl-14">
+          <h1
+            class="text-center md:text-left font-semibold md:font-extrabold text-2xl md:text-3xl lg:text-4xl font-poppins"
+          >
+            Strawberry Ice Cream with Cookie
+          </h1>
+          <p class="text-sm text-rose-400 text-center md:text-left m-2">
+            Some food has looked so awful that it’s looked like something that
+            the dog’s brought home, yet after one mouthful I’ve been lift eating
+            my thougjhts, mu words
+          </p>
+        </div>
+        <div class="sm:w-72 md:w-full">
+          <img src="./images/icecream1.png" alt="Ice-Cream" class="mt-8" />
+        </div>
+      </section>
+      <!--========Products & Pricing Section======-->
+      <section id="product" class="bg-white">
+        <div class="py-10 md:pt-14 px-4 md:px-10 lg:px-24">
+        <div class="text-center">
+          <h1 class="font-poppins font-bold text-2xl md:text-4xl">
+            Our Services
+          </h1>
+          <p class="text-sm md:text-base capitalize text-btn-bg">
+            all variety of ice cream available here
+          </p>
+        </div>
+        <div class="mt-8 flex justify-center items-center flex-col sm:flex-row gap-3">
+          <div class="flex flex-col justify-center items-center shadow-sm rounded p-2">
+            <div class="w-64 py-2">
+              <img src="./images/icecream1.png" alt="icecream1">
+            </div>
+            <div class="text-center">
+              <h1 class="font-bold text-lg">Choco Ice Cream</h1>
+              <p class="text-sm text-btn-bg">Grap the Deal today,with lastest offer</p>
+              <p class="font-bold text-lg">$<span>15.55</span></p>
+            </div>
+          </div>
+          <div class="flex flex-col justify-center items-center shadow-sm rounded p-2">
+            <div class="w-64 py-2">
+              <img src="./images/icecream1.png" alt="icecream1">
+            </div>
+            <div class="text-center">
+              <h1 class="font-bold text-lg">Choco Ice Cream</h1>
+              <p class="text-sm text-btn-bg">Grap the Deal today,with lastest offer</p>
+              <p class="font-bold text-lg">$<span>15.55</span></p>
+            </div>
+          </div>
+          <div class="flex flex-col justify-center items-center shadow-sm rounded p-2">
+            <div class="w-64 py-2">
+              <img src="./images/icecream3.png" alt="icecream1">
+            </div>
+            <div class="text-center">
+              <h1 class="font-bold text-lg">Choco Ice Cream</h1>
+              <p class="text-sm text-btn-bg">Grap the Deal today,with lastest offer</p>
+              <p class="font-bold text-lg">$<span>15.55</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--===============Contact Section================-->
+      <section id="contact" class="py-16 md:pt-14 px-4 md:px-10 lg:px-24">
+        <div class="text-2xl md:text-4xl font-bold text-center pb-4 md:pb-10">
+          <h1>
+            Have Question in Mind ? <br />
+            Let us Help You
+          </h1>
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-center items-center gap-5 md:gap-0"
+        >
+          <input
+            type="text"
+            placeholder="Enter Question Here"
+            class="p-4 rounded-md shadow-sm focus:border-rose-400"
+          />
+          <button class="bg-btn-bg px-10 py-4 text-white font-medium">
+            Send
+          </button>
+        </div>
+      </section>
+      <!--===============Footer Section================-->
+      <footer class="py-10 md:pt-14 px-4 md:px-10 lg:px-24 bg-black text-white flex flex-col md:flex-row md:justify-between gap-2">
+        <div class="w-52 flex flex-col gap-2">
+          <h1 class="font-semibold text-2xl">Bis<span class="text-rose-500">tro</span></h1>
+          <p class="text-sm font-thin">Order Some Delicious Ice Cream with Good in Falvour</p>
+          <div class="flex flex-col gap-2">
+            <h3 class="font-medium">Follow us</h3>
+            <div class="flex gap-4">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center gap-2 text-sm font-light">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#product">Product</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="flex flex-col gap-2">
+          <h4 class="capitalize font-medium text-lg md:text-sm ">newsletter</h4>
+          <div class="flex flex-col sm:flex-row gap-2 sm:gap-0 p-0">
+          <input
+            type="text"
+            placeholder="Subscribe"
+            class="py-2 px-4 shadow-sm bg-transparent border border-opacity-10 border-white outline-none"
+          />
+          <button class="bg-btn-bg px-4 py-2 text-white font-medium">
+            Send
+          </button>
+        </div>
+      </footer>
+    </main>
+    <!--===============Script File===============-->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
