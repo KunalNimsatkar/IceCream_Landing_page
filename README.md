@@ -1,1 +1,1 @@
-Ecommerece Ice-cream Landing Page using Tailwind CSS
+Ice-cream Landing Page using Tailwind CSS
