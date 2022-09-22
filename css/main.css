@@ -615,40 +615,28 @@ video {
   left: 50%;
 }
 
-.top-2{
-  top: 0.5rem;
+.left-0{
+  left: 0px;
 }
 
-.top-1{
-  top: 0.25rem;
-}
-
-.top-20{
-  top: 5rem;
-}
-
-.z-20{
-  z-index: 20;
+.left-10{
+  left: 2.5rem;
 }
 
 .z-10{
   z-index: 10;
 }
 
-.z-30{
-  z-index: 30;
+.z-20{
+  z-index: 20;
 }
 
-.z-0{
-  z-index: 0;
+.z-50{
+  z-index: 50;
 }
 
 .m-2{
   margin: 0.5rem;
-}
-
-.m-auto{
-  margin: auto;
 }
 
 .mx-auto{
@@ -656,17 +644,8 @@ video {
   margin-right: auto;
 }
 
-.my-auto{
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
+.mt-24{
+  margin-top: 6rem;
 }
 
 .mr-3{
@@ -681,8 +660,12 @@ video {
   margin-top: 2rem;
 }
 
-.mt-20{
-  margin-top: 5rem;
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .flex{
@@ -699,6 +682,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .h-48{
@@ -737,6 +724,10 @@ video {
   width: 100%;
 }
 
+.w-screen{
+  width: 100vw;
+}
+
 .shrink{
   flex-shrink: 1;
 }
@@ -752,11 +743,6 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
-}
-
-.scroll-py-32{
-  scroll-padding-top: 8rem;
-  scroll-padding-bottom: 8rem;
 }
 
 .grid-rows-2{
@@ -871,13 +857,8 @@ video {
   background-color: transparent;
 }
 
-.bg-bg-color{
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 243 243 / var(--tw-bg-opacity));
-}
-
-.bg-fixed{
-  background-attachment: fixed;
+.p-4{
+  padding: 1rem;
 }
 
 .p-20{
@@ -888,25 +869,12 @@ video {
   padding: 0.5rem;
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .p-0{
   padding: 0px;
 }
 
-.p-64{
-  padding: 16rem;
-}
-
-.p-96{
-  padding: 24rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
+.p-6{
+  padding: 1.5rem;
 }
 
 .py-28{
@@ -917,6 +885,11 @@ video {
 .px-16{
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-2{
@@ -944,32 +917,20 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-96{
-  padding-top: 24rem;
-  padding-bottom: 24rem;
-}
-
-.py-48{
-  padding-top: 12rem;
-  padding-bottom: 12rem;
-}
-
-.py-64{
-  padding-top: 16rem;
-  padding-bottom: 16rem;
-}
-
-.py-56{
-  padding-top: 14rem;
-  padding-bottom: 14rem;
-}
-
 .pb-5{
   padding-bottom: 1.25rem;
 }
 
 .pb-4{
   padding-bottom: 1rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
 }
 
 .text-center{
@@ -1093,18 +1054,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:static{
-    position: static;
-  }
-
-  .sm\:relative{
-    position: relative;
-  }
-
-  .sm\:top-auto{
-    top: auto;
-  }
-
   .sm\:h-40{
     height: 10rem;
   }

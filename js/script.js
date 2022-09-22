@@ -9,3 +9,8 @@ const mobileNav = () => {
    menuBar.classList.toggle('text-white');
 }
 humburger.addEventListener('click' , mobileNav);
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();

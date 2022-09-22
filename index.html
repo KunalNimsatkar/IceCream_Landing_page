@@ -14,10 +14,12 @@
     />
     <!--===============CSS File===============-->
     <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="bg-bg-background font-inter scroll-smooth">
     <!--===============Header===============-->
-    <header
+    <header data-aos="fade-down"
+    data-aos-duration="1000"
       class="container mx-auto px-4 mt-2 md:px-12 lg:px-24 flex justify-between items-center"
     >
       <div class="flex text-2xl md:text-3xl font-semibold">
@@ -40,10 +42,11 @@
         </div>
       </div>
     </header>
-    <main class="mt-10 md:mt-14">
+    <main>
       <!--===============Hero Section===============-->
-      <section id="home"
-        class="container mx-auto px-4 md:px-10 lg:px-24 flex flex-col gap-10 md:grid md:grid-cols-2 md:gap-x-4 justify-center items-center"
+      <section id="home" data-aos="fade-up"
+      data-aos-duration="1000"
+        class="h-screen container mx-auto px-4 md:px-10 lg:px-24 flex flex-col gap-10 md:grid md:grid-cols-2 md:gap-x-4 justify-center items-center"
       >
         <div class="mr-3 text-center md:text-left">
           <h4 class="md:text-md md:font-semibold">Sweet Fun, Full of Milk</h4>
@@ -79,7 +82,8 @@
         >
           <div
             class="w-60 h-48 md:w-full xl:w-48 md:h-42 lg:h-44 sm:h-40 flex flex-col justify-center items-center gap-1 shadow-md rounded-lg p-2 hover:scale-105 transition ease-in-out delay-150 cursor-pointer"
-          >
+            data-aos="zoom-in"
+            data-aos-duration="500">
             <img src="./images/shipping.svg" alt="shipping" class="w-2/5" />
             <h3 class="font-bold">Free Shipping</h3>
             <p class="text-xs text-btn-bg text-center">
@@ -88,7 +92,8 @@
           </div>
           <div
             class="w-60 h-48 md:w-full xl:w-48 md:h-42 lg:h-44 sm:h-40 flex flex-col justify-center items-center gap-1 shadow-md rounded-lg p-2 hover:scale-105 transition ease-in-out delay-150 cursor-pointer"
-          >
+            data-aos="zoom-in"
+            data-aos-duration="800">
             <img src="./images/courier.svg" alt="courier" class="w-2/5" />
             <h3 class="font-bold">Quick Packing</h3>
             <p class="text-xs text-btn-bg text-center">
@@ -97,7 +102,8 @@
           </div>
           <div
             class="w-60 h-48 md:w-full xl:w-48 md:h-42 lg:h-44 sm:h-40 flex flex-col justify-center items-center gap-1 shadow-md rounded-lg p-2 hover:scale-105 transition ease-in-out delay-150 cursor-pointer"
-          >
+            data-aos="zoom-in"
+            data-aos-duration="1000">
             <img
               src="./images/money return.svg"
               alt="money_return"
@@ -110,7 +116,8 @@
           </div>
           <div
             class="w-60 h-48 md:w-full xl:w-48 md:h-42 lg:h-44 sm:h-40 flex flex-col justify-center items-center gap-1 shadow-md rounded-lg p-2 hover:scale-105 transition ease-in-out delay-150 cursor-pointer"
-          >
+            data-aos="zoom-in"
+            data-aos-duration="1500">
             <img src="./images/on_the_way.svg" alt="Ontheway" class="w-2/3" />
             <h3 class="font-bold">Fast Delivery</h3>
             <p class="text-xs text-btn-bg text-center">
@@ -122,7 +129,8 @@
       <!--===============Ads Section================-->
       <section
         class="container mx-auto px-4 pb-5 md:pb-0 md:px-10 lg:px-24 h-1/4 mt-8 grid grid-rows-2 sm:grid-rows-none sm:grid-cols-2 justify-center md:justify-between items-center"
-      >
+        data-aos="fade-down"
+        data-aos-duration="1500">
         <div class="flex flex-col justify-center items-center md:pl-14">
           <h1
             class="text-center md:text-left font-semibold md:font-extrabold text-2xl md:text-3xl lg:text-4xl font-poppins"
@@ -151,7 +159,19 @@
           </p>
         </div>
         <div class="mt-8 flex justify-center items-center flex-col sm:flex-row gap-3">
-          <div class="flex flex-col justify-center items-center shadow-sm rounded p-2">
+          <div class="flex flex-col justify-center items-center shadow-sm rounded p-2"data-aos="fade-up"
+          data-aos-duration="1500">
+            <div class="w-64 py-2">
+              <img src="./images/icecream3.png" alt="icecream1">
+            </div>
+            <div class="text-center">
+              <h1 class="font-bold text-lg">Choco Ice Cream</h1>
+              <p class="text-sm text-btn-bg">Grap the Deal today,with lastest offer</p>
+              <p class="font-bold text-lg">$<span>15.55</span></p>
+            </div>
+          </div>
+          <div class="flex flex-col justify-center items-center shadow-sm rounded p-2" data-aos="fade-down"
+          data-aos-duration="1500">
             <div class="w-64 py-2">
               <img src="./images/icecream1.png" alt="icecream1">
             </div>
@@ -161,17 +181,8 @@
               <p class="font-bold text-lg">$<span>15.55</span></p>
             </div>
           </div>
-          <div class="flex flex-col justify-center items-center shadow-sm rounded p-2">
-            <div class="w-64 py-2">
-              <img src="./images/icecream1.png" alt="icecream1">
-            </div>
-            <div class="text-center">
-              <h1 class="font-bold text-lg">Choco Ice Cream</h1>
-              <p class="text-sm text-btn-bg">Grap the Deal today,with lastest offer</p>
-              <p class="font-bold text-lg">$<span>15.55</span></p>
-            </div>
-          </div>
-          <div class="flex flex-col justify-center items-center shadow-sm rounded p-2">
+          <div class="flex flex-col justify-center items-center shadow-sm rounded p-2" data-aos="fade-up"
+          data-aos-duration="1500">
             <div class="w-64 py-2">
               <img src="./images/icecream3.png" alt="icecream1">
             </div>
@@ -186,7 +197,8 @@
       </section>
       <!--===============Contact Section================-->
       <section id="contact" class="py-16 md:pt-14 px-4 md:px-10 lg:px-24">
-        <div class="text-2xl md:text-4xl font-bold text-center pb-4 md:pb-10">
+        <div class="text-2xl md:text-4xl font-bold text-center pb-4 md:pb-10" data-aos="fade-down"
+        data-aos-duration="1500">
           <h1>
             Have Question in Mind ? <br />
             Let us Help You
@@ -194,7 +206,8 @@
         </div>
         <div
           class="flex flex-col md:flex-row justify-center items-center gap-5 md:gap-0"
-        >
+          data-aos="fade-up"
+          data-aos-duration="1500">
           <input
             type="text"
             placeholder="Enter Question Here"
@@ -207,7 +220,8 @@
       </section>
       <!--===============Footer Section================-->
       <footer class="py-10 md:pt-14 px-4 md:px-10 lg:px-24 bg-black text-white flex flex-col md:flex-row md:justify-between gap-2">
-        <div class="w-52 flex flex-col gap-2">
+        <div class="w-52 flex flex-col gap-2" data-aos="fade-up"
+        data-aos-duration="1500">
           <h1 class="font-semibold text-2xl">Bis<span class="text-rose-500">tro</span></h1>
           <p class="text-sm font-thin">Order Some Delicious Ice Cream with Good in Falvour</p>
           <div class="flex flex-col gap-2">
@@ -219,13 +233,14 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col justify-center gap-2 text-sm font-light">
+        <div class="flex flex-col justify-center gap-2 text-sm font-light" data-aos="fade-down"
+        data-aos-duration="1500">
           <a href="#home">Home</a>
           <a href="#services">Services</a>
           <a href="#product">Product</a>
           <a href="#contact">Contact</a>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2" >
           <h4 class="capitalize font-medium text-lg md:text-sm ">newsletter</h4>
           <div class="flex flex-col sm:flex-row gap-2 sm:gap-0 p-0">
           <input
@@ -241,5 +256,7 @@
     </main>
     <!--===============Script File===============-->
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/AOS.js"></script>
   </body>
 </html>
