@@ -2,3 +2,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.menu div {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  position: relative;
+}
+.menu span {
+  background-color: black;
+  width: 80%;
+  height: 3px;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s, width 0.5s;
+}
+.menu .line-1 {
+  transform: translate(-50%, -10px);
+}
+.menu .line-3 {
+  transform: translate(-50%, 7px);
+}
+.openMenu {
+  border: 1px dotted black;
+}
+.openMenu .line-1 {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.openMenu .line-3 {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.openMenu .line-2 {
+  width: 0%;
+}
